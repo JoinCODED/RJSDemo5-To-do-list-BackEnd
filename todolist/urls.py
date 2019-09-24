@@ -1,9 +1,15 @@
 
 from django.contrib import admin
 from django.urls import path
-from apis.views import TaskListView
+from rest_framework.routers import DefaultRouter
 
-urlpatterns = [
+from apis.views import TaskViewSet
+
+router = DefaultRouter()
+router.register(r'api/tasks', TaskViewSet, basename='task')
+
+urlpatterns = router.urls
+
+urlpatterns += [
     path('admin/', admin.site.urls),
-    path('api/list/', TaskListView.as_view(), name='task-list'),
 ]
