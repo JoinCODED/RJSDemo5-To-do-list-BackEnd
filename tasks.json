@@ -1,0 +1,36 @@
+[
+  {
+    "model": "apis.task",
+    "pk": 4,
+    "fields": { "task": "Clean my room", "done": false, "priority": "low" }
+  },
+  {
+    "model": "apis.task",
+    "pk": 5,
+    "fields": { "task": "Buy Steak", "done": false, "priority": "middle" }
+  },
+  {
+    "model": "apis.task",
+    "pk": 6,
+    "fields": { "task": "Study for test", "done": true, "priority": "high" }
+  },
+  {
+    "model": "apis.task",
+    "pk": 7,
+    "fields": { "task": "Build backend", "done": true, "priority": "low" }
+  },
+  {
+    "model": "apis.task",
+    "pk": 8,
+    "fields": { "task": "Refill snack bar", "done": false, "priority": "high" }
+  },
+  {
+    "model": "apis.task",
+    "pk": 9,
+    "fields": {
+      "task": "Compliment Khalid",
+      "done": false,
+      "priority": "middle"
+    }
+  }
+]
